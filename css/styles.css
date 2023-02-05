@@ -1,0 +1,297 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #1B1A17;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  margin: 0;
+}
+
+p {
+  line-height: 2;
+  color: #F0E3CA;
+}
+
+h1 {
+  margin: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 600%;
+  color: #FF8303;
+
+}
+
+h2 {
+  margin: 0px;
+  padding-top: 10px;
+  color: #FF8303;
+}
+
+h3 {
+  /* padding: 10px; */
+  color: #F0E3CA;
+}
+
+
+.icons{
+  height: 45px;
+  width: 45px;
+  margin-right: 10px;
+}
+
+.icon-container{
+  display: flex;
+  justify-content: center;
+
+}
+
+
+
+
+
+/* NAVBAR */
+
+.navbar {
+  padding: 1%;
+}
+
+.navbar-collapse {
+  padding-left: 2%;
+  text-align: left;
+}
+
+.nav-link {
+  color: #A35709;
+}
+
+.nav-link:hover {
+  color: #FF8303;
+}
+
+.navbar-toggler:hover {
+  color: #FF8303;
+}
+
+/* HEADER */
+
+.header {
+  padding-top: 5%;
+  padding-bottom: 10%;
+  background-color: #1B1A17;
+  margin: 0;
+}
+
+.profile-info{
+  /* padding: o 9rem 0 9rem; */
+  /* margin: 0 9em 0 9em; */
+}
+
+.profile-icon {
+  width: 10%;
+  padding-top: 5%;
+}
+
+.typewriter h3 {
+  overflow: hidden;
+  /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange;
+  /* The typwriter cursor */
+  white-space: nowrap;
+  /* Keeps the content on a single line */
+  margin: 0 auto;
+  /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em;
+  /* Adjust as needed */
+  animation: typing 4s steps(40, end),
+  blink-caret .75s step-end infinite;
+}
+
+/* The typing effect */
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+
+  to {
+    width: 100%
+  }
+}
+
+@keyframes blink-caret {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: orange;
+  }
+}
+
+
+/* SKILLS */
+
+.skills {
+  margin-top: 9%;
+  margin-bottom: 16%;
+}
+
+td {
+  width: 67%;
+  text-align: left;
+}
+
+.skill-row {
+  padding-top: 30px;
+  width: 50%;
+  margin: auto;
+  color: #F0E3CA;
+  text-align: center;
+  line-height: 2.5;
+}
+
+
+/* PROJECTS */
+
+.projects {
+  margin-top: 10%;
+  margin-bottom: 5%
+}
+
+.manage-carousel {
+  margin: 0px;
+  padding: 1% 23% 2% 23%;
+  box-sizing: border-box;
+}
+
+.carousel-para {
+  text-align: center;
+  margin: 20px;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+/* CONTACT */
+
+.mail {
+  padding: 35px 50px 60px 50px;
+}
+
+.contact {
+  color: #F0E3CA;
+  text-align: center;
+  padding-top: 5%;
+}
+
+.contact-text {
+  padding-top: 10px;
+  margin-bottom: 100px;
+}
+
+.btn {
+  background: #FF8303;
+  border-radius: 16px;
+  font-family: Arial;
+  color: #1B1A17;
+  font-size: 17px;
+  padding: 9px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #A35709;
+
+}
+
+/* FOOTER */
+
+.footer {
+  margin: 0px;
+  background-color: #1B1A17;
+  padding: 100px 30px 5px 30px;
+
+}
+
+.footer-link {
+  text-align: right;
+  position: relative;
+  left: 1%;
+  top: 20px;
+}
+
+.link:hover {
+  color: #FF8303;
+}
+
+.link {
+  text-align: right;
+  padding: 1%;
+  text-decoration: none;
+  font-size: 17px;
+  color: #A35709;
+}
+
+.copyright {
+  text-align: left;
+  position: relative;
+  bottom: 11px;
+  font-size: 17px;
+  color: #A35709;
+}
+
+/* CONTACT ME PAGE */
+
+.con-heading {
+  font-size: 30px;
+}
+
+.contact-form {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #A35709;
+}
+
+.form {
+  width: 30%;
+  margin-top: 20px;
+
+}
+
+.form-element {
+  line-height: 2;
+  color: #F0E3CA;
+}
+
+.form-label {
+  text-align: left;
+  position: absolute;
+  left: 39%;
+  line-height: 1;
+}
+
+.form-input {
+  position: absolute;
+  right: 36%;
+  line-height: 1.5;
+}
+
+.btn-submit {
+
+  background: #FF8303;
+  border-radius: 16px;
+  font-family: Arial;
+  color: #1B1A17;
+  font-size: 17px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  margin-top: 30px;
+}

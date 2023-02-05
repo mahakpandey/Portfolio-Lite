@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  </meta>
+  <title>Personal site</title>
+  <!-- bootstrap -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+  <!-- css -->
+  <link rel="stylesheet" href="css\styles.css">
+  <!-- favicon -->
+  <link rel="icon" href="favicon.ico">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+
+
+  <nav class="navbar navbar-expand-md navbar-dark">
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+      aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#profile">Profile</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#skills">Skills</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#projects">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+
+
+  <!-- profile -->
+
+  <div class="profile" id="profile">
+    <img class="profile-icon" src="images/woman.png" alt="profile icon">
+    <h2>Hello</h2>
+  </div>
+
+  <!-- Header -->
+  <div class="header typewriter">
+    <h1>I'm Mahak</h1>
+    <div class="profile-info">
+      <h3>A Frontend Web Developer</h3>
+    </div>
+  </div>
+
+
+  <!-- skills -->
+
+  <div class="skills" id="skills">
+    <div class="icon-container">
+    <img class="icons" src="images/skill.png" alt="skill-img">
+    <h2>Skills</h2>
+    </div>
+    <div class="skill-row">
+      <hr>
+      <table>
+        <tr>
+          <td><b>Programming Languages</b></td>
+          <td>C, C++, JavaScript .</td>
+        </tr>
+
+        <tr>
+          <td><b>Web Technologies</b></td>
+          <td> React.js, Express.js, Node.js</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td> ,HTML5, CSS3, Bootstrap, jQuery .</td>
+        </tr>
+        <tr>
+          <td><b>Database</b></td>
+          <td>My SQL .</td>
+        </tr>
+        <tr>
+          <td><b>Tools/Ide</b></td>
+          <td>Git, GitHub, Atom, VS code .</td>
+        </tr>
+      </table>
+      <hr>
+    </div>
+  </div>
+
+
+  <!-- projects -->
+
+  <div class="projects" id="projects">
+    <div class="icon-container">
+      <img class="icons" src="images/project.png" alt="project-img">
+      <h2>Projects</h2>
+    </div>
+    <div id="carouselExampleDark" class="carousel carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators ">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="manage-carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="5000">
+            <div class="carousel-para">
+              <h3>Title: Take You Home</h3>
+              <p>
+                This website was developed at the time of Covid-19 to help the people who were stuck at some place, by
+                collecting their data and giving access of that data to the superior authorities who can help and do the
+                needful.
+              </p>
+              <p>
+                <b>• Frontend: </b>HTML, CSS, Bootstrap, JavaScript, jQuery
+                <b>• Backend: </b>Python (Django)
+                <b>• Database: </b>SQL Lite
+              </p>
+            </div>
+
+          </div>
+          <div class="carousel-item" data-bs-interval="5000">
+            <div class="carousel-para">
+              <h3>Title: E-Kart (Engineer's Kart)</h3>
+              <p>
+                This website was developed for the engineering students who can buy and sell their products, in their
+                own rates, new as well as old such as books, engineering instruments, household items etc. This also
+                helps students to network with other engineering students.
+              </p>
+              <p>
+                <b>• Frontend: </b>HTML, CSS, Bootstrap, JavaScript, jQuery, React.js
+                <b>• Backend: </b>Node.js, Express.js
+                <b>• Database: </b>MongoDB
+              </p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="carousel-para">
+              <h3>Title: Keeper</h3>
+              <p>
+                Keeper is a web app which was developed to simplify notes taking. It allows the user to take notes and
+                keep them in organized manner with their respective labels. User can note down their tasks, thoughts,
+                ideas, etc. at one place and can keep different labels attached to them.
+              </p>
+              <p><b> Technologies: </b>HTML, CSS, Bootstrap, JavaScript, jQuery, React.js</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- contact -->
+
+  <div class="contact" id="contact">
+    <div class="contact-me">
+      <div class="icon-container">
+        <img class="icons" src="images/contact.png" alt="contact-img">
+        <h2>Get In Touch</h2>
+      </div>
+      <div class="mail">
+        <a class="btn btn.hover" type="button" href="contact.html">CONTACT ME</a>
+      </div>
+      <!-- <p class="contact-text">Feel free to <strong>connect</strong> with me on</p> -->
+    </div>
+
+    <!-- footer -->
+
+    <div class="footer">
+      <hr>
+      <div class="footer-link">
+        <a class="link" href="https://www.linkedin.com/in/mahak-pandey-329b64213/" target="_blank">linkedIn</a>
+        <a class="link" href="https://twitter.com/mahakparashar?t=hnOj3ffPdQZTvulbGmmM-g&s=09" target="_blank">Twitter</a>
+        <a class="link" href="https://github.com/mahakpandey" target="_blank">GitHub</a>
+      </div>
+      <p class="copyright">©MahakPandey</p>
+    </div>
+
+</body>
+
+</html>
