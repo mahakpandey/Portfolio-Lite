@@ -5,52 +5,45 @@
 }
 
 body {
-  background-color: #1B1A17;
+  background-color: #1b1a17;
   text-align: center;
-  font-family: 'Merriweather', serif;
+  font-family: "Merriweather", serif;
   margin: 0;
 }
 
 p {
   line-height: 2;
-  color: #F0E3CA;
+  color: #f0e3ca;
 }
 
 h1 {
   margin: 0;
-  font-family: 'Sacramento', cursive;
+  font-family: "Sacramento", cursive;
   font-size: 600%;
-  color: #FF8303;
-
+  color: #ff8303;
 }
 
 h2 {
   margin: 0px;
   padding-top: 10px;
-  color: #FF8303;
+  color: #ff8303;
 }
 
 h3 {
   /* padding: 10px; */
-  color: #F0E3CA;
+  color: #f0e3ca;
 }
 
-
-.icons{
+.icons {
   height: 45px;
   width: 45px;
   margin-right: 10px;
 }
 
-.icon-container{
+.icon-container {
   display: flex;
   justify-content: center;
-
 }
-
-
-
-
 
 /* NAVBAR */
 
@@ -64,15 +57,15 @@ h3 {
 }
 
 .nav-link {
-  color: #A35709;
+  color: #a35709;
 }
 
 .nav-link:hover {
-  color: #FF8303;
+  color: #ff8303;
 }
 
 .navbar-toggler:hover {
-  color: #FF8303;
+  color: #ff8303;
 }
 
 /* HEADER */
@@ -80,13 +73,8 @@ h3 {
 .header {
   padding-top: 5%;
   padding-bottom: 10%;
-  background-color: #1B1A17;
-  margin: 0;
-}
 
-.profile-info{
-  /* padding: o 9rem 0 9rem; */
-  /* margin: 0 9em 0 9em; */
+  margin: 0;
 }
 
 .profile-icon {
@@ -97,42 +85,39 @@ h3 {
 .typewriter h3 {
   overflow: hidden;
   /* Ensures the content is not revealed until the animation */
-  border-right: .15em solid orange;
+  border-right: 0.15em solid orange;
   /* The typwriter cursor */
   white-space: nowrap;
   /* Keeps the content on a single line */
   margin: 0 auto;
   /* Gives that scrolling effect as the typing happens */
-  letter-spacing: .15em;
+  letter-spacing: 0.15em;
   /* Adjust as needed */
-  animation: typing 4s steps(40, end),
-  blink-caret .75s step-end infinite;
+  animation: typing 4s steps(40, end), blink-caret 0.75s step-end infinite;
 }
 
 /* The typing effect */
 
 @keyframes typing {
   from {
-    width: 0
+    width: 0;
   }
 
   to {
-    width: 100%
+    width: 100%;
   }
 }
 
 @keyframes blink-caret {
-
   from,
   to {
-    border-color: transparent
+    border-color: transparent;
   }
 
   50% {
     border-color: orange;
   }
 }
-
 
 /* SKILLS */
 
@@ -150,17 +135,16 @@ td {
   padding-top: 30px;
   width: 50%;
   margin: auto;
-  color: #F0E3CA;
+  color: #f0e3ca;
   text-align: center;
   line-height: 2.5;
 }
-
 
 /* PROJECTS */
 
 .projects {
   margin-top: 10%;
-  margin-bottom: 5%
+  margin-bottom: 5%;
 }
 
 .manage-carousel {
@@ -183,7 +167,7 @@ td {
 }
 
 .contact {
-  color: #F0E3CA;
+  color: #f0e3ca;
   text-align: center;
   padding-top: 5%;
 }
@@ -194,27 +178,25 @@ td {
 }
 
 .btn {
-  background: #FF8303;
+  background: #ff8303;
   border-radius: 16px;
   font-family: Arial;
-  color: #1B1A17;
+  color: #1b1a17;
   font-size: 17px;
   padding: 9px 20px 10px 20px;
   text-decoration: none;
 }
 
 .btn:hover {
-  background: #A35709;
-
+  background: #a35709;
 }
 
 /* FOOTER */
 
 .footer {
   margin: 0px;
-  background-color: #1B1A17;
-  padding: 100px 30px 5px 30px;
 
+  padding: 100px 30px 5px 30px;
 }
 
 .footer-link {
@@ -225,7 +207,7 @@ td {
 }
 
 .link:hover {
-  color: #FF8303;
+  color: #ff8303;
 }
 
 .link {
@@ -233,7 +215,7 @@ td {
   padding: 1%;
   text-decoration: none;
   font-size: 17px;
-  color: #A35709;
+  color: #a35709;
 }
 
 .copyright {
@@ -241,10 +223,20 @@ td {
   position: relative;
   bottom: 11px;
   font-size: 17px;
-  color: #A35709;
+  color: #a35709;
 }
 
 /* CONTACT ME PAGE */
+
+.main-div {
+  border: 2px solid #a35709;
+}
+
+.position-back {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+}
 
 .con-heading {
   font-size: 30px;
@@ -257,41 +249,187 @@ td {
   height: 100vh;
   justify-content: center;
   align-items: center;
-  border: 2px solid #A35709;
 }
 
 .form {
   width: 30%;
   margin-top: 20px;
-
 }
 
 .form-element {
   line-height: 2;
-  color: #F0E3CA;
-}
-
-.form-label {
-  text-align: left;
-  position: absolute;
-  left: 39%;
-  line-height: 1;
+  color: #f0e3ca;
 }
 
 .form-input {
-  position: absolute;
-  right: 36%;
+  width: 80%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  border-bottom: 3px solid #ff8303;
   line-height: 1.5;
 }
 
-.btn-submit {
-
-  background: #FF8303;
+.back-btn {
+  background: #ff8303;
   border-radius: 16px;
   font-family: Arial;
-  color: #1B1A17;
+  color: #1b1a17;
+  font-size: 15px;
+  padding: 5px 15px 5px 15px;
+  text-decoration: none;
+  margin-top: 30px;
+}
+
+.back-btn:hover {
+  background-color: #a35709;
+  color: #f0e3ca;
+}
+
+.btn-submit {
+  background: #ff8303;
+  border-radius: 16px;
+  font-family: Arial;
+  color: #1b1a17;
   font-size: 17px;
   padding: 5px 15px 5px 15px;
   text-decoration: none;
   margin-top: 30px;
 }
+
+.btn-submit:hover {
+  background-color: #a35709;
+  color: #f0e3ca;
+}
+
+.hover:hover {
+}
+
+/* ///////////////////////////////////////////////////////////////////// */
+
+.area {
+  background: #1b1a17;
+  background: -webkit-linear-gradient(to left, #8f94fb, #4e54c8);
+  width: 100%;
+  height: 100vh;
+}
+
+.circles {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.circles li {
+  position: absolute;
+  display: block;
+  list-style: none;
+  width: 20px;
+  height: 20px;
+  background: rgba(255, 255, 255, 0.2);
+  animation: animate 25s linear infinite;
+  bottom: -150px;
+}
+
+.circles li:nth-child(1) {
+  left: 25%;
+  width: 80px;
+  height: 80px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(2) {
+  left: 10%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 2s;
+  animation-duration: 12s;
+}
+
+.circles li:nth-child(3) {
+  left: 70%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 4s;
+}
+
+.circles li:nth-child(4) {
+  left: 40%;
+  width: 60px;
+  height: 60px;
+  animation-delay: 0s;
+  animation-duration: 18s;
+}
+
+.circles li:nth-child(5) {
+  left: 65%;
+  width: 20px;
+  height: 20px;
+  animation-delay: 0s;
+}
+
+.circles li:nth-child(6) {
+  left: 75%;
+  width: 110px;
+  height: 110px;
+  animation-delay: 3s;
+}
+
+.circles li:nth-child(7) {
+  left: 35%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 7s;
+}
+
+.circles li:nth-child(8) {
+  left: 50%;
+  width: 25px;
+  height: 25px;
+  animation-delay: 15s;
+  animation-duration: 45s;
+}
+
+.circles li:nth-child(9) {
+  left: 20%;
+  width: 15px;
+  height: 15px;
+  animation-delay: 2s;
+  animation-duration: 35s;
+}
+
+.circles li:nth-child(10) {
+  left: 85%;
+  width: 150px;
+  height: 150px;
+  animation-delay: 0s;
+  animation-duration: 11s;
+}
+
+@keyframes animate {
+  0% {
+    transform: translateY(0) rotate(0deg);
+    opacity: 1;
+    border-radius: 0;
+  }
+
+  100% {
+    transform: translateY(-1000px) rotate(720deg);
+    opacity: 0;
+    border-radius: 50%;
+  }
+}
+
+@media screen and (min-width: 480px) {
+
+  .contact-form{
+
+  }
+
+}
+
+
